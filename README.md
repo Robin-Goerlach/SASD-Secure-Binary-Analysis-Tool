@@ -54,8 +54,8 @@ The visual target is documented by the repository screenshots:
 
 The implementation plan is described in:
 
-- [UI target and screenshot plan](docs/ui-ux/055_UI_Zielbild_und_Screenshot_Plan.md)
-- [Codex implementation guide](docs/development/145_Codex_Arbeitsauftrag.md)
+- [Planned workbench concept](#planned-workbench) — UI target and existing concept screenshot; a separate UX specification has not yet been created.
+- [Codex / agent operating contract](AGENTS.md) — implementation workflow and architectural guardrails; milestone-specific implementation briefs will be created when work starts.
 
 ## V1 – planned Secure Binary Analysis Foundation
 
