@@ -50,8 +50,7 @@ Writing, patching, device access and recovery are not casual extensions of norma
 
 The visual target is documented by the repository screenshots:
 
-- [Dashboard concept](docs/screenshots/dashboard-concept.png)
-- [Condition wizard concept](docs/screenshots/condition-wizard-concept.png)
+![Dashboard concept screenshot](docs/assets/Screenshot.png)
 
 The implementation plan is described in:
 
