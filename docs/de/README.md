@@ -196,6 +196,10 @@ Betrachtet wurden klassische und moderne Hex-Editoren, Format-/Parser-Werkzeuge,
         └── research/
 ~~~
 
+## Architektur
+
+- [Architekturdokument](architecture/ARCHITEKTUR.md) – Schichten, Komponenten, ByteProvider, Datenflüsse, Sicherheitsgrenzen, Persistenz, Tests und Evolutionspfad.
+
 ## Dokumentation
 
 - [Lastenheft](requirements/LASTENHEFT.md) – **was** benötigt wird und **warum**;
