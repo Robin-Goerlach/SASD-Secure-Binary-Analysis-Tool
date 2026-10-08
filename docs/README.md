@@ -47,3 +47,12 @@ ADRs are intended to be bilingual in a single file so architectural rationale ca
 German and English documents describe the same technical intent. They do not have to be literal sentence-by-sentence translations, but requirements, release assignments, security boundaries and architectural decisions must remain equivalent.
 
 Research documents are evidence and decision support. The requirements/specification pair defines the maintained product baseline unless superseded by a later approved baseline or ADR.
+
+## Repository governance
+
+- [Project status](../PROJECT-STATUS.md)
+- [Roadmap](../ROADMAP.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Security policy](../SECURITY.md)
+- [Changelog](../CHANGELOG.md)
+- [Agent operating contract](../AGENTS.md)

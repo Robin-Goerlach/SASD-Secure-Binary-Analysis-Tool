@@ -21,3 +21,7 @@ This directory records durable architectural decisions for SASD Binary Insight.
 ADRs should contain both English and German sections in the same file. This mirrors the approach used by other SASD repositories and prevents architectural rationale from drifting between translations.
 
 No item in this list is considered decided merely because it is listed here.
+
+## Creating an ADR
+
+Use [TEMPLATE.md](TEMPLATE.md). Keep English and German sections in the same ADR. Once an ADR is Accepted, preserve its historical rationale; supersede it with a new ADR rather than silently rewriting the decision.
