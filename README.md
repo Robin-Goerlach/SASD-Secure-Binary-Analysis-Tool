@@ -54,8 +54,9 @@ The visual target is documented by the repository screenshots:
 
 The implementation plan is described in:
 
-- [UI target and screenshot plan](docs/ui-ux/055_UI_Zielbild_und_Screenshot_Plan.md)
-- [Codex implementation guide](docs/development/145_Codex_Arbeitsauftrag.md)
+- [Architecture and planned workbench](docs/en/architecture/ARCHITECTURE.md)
+- [Roadmap and implementation milestones](ROADMAP.md)
+- [Codex/agent operating contract](AGENTS.md)
 
 ## V1 – planned Secure Binary Analysis Foundation
 
@@ -179,7 +180,7 @@ Language, GUI technology and concrete dependencies remain initial ADR decisions.
 | V4.0 | Controlled Editing |
 | V5+ | optional Recovery/Repair |
 
-The detailed, release-oriented plan with exit criteria and cross-cutting gates is maintained in [ROADMAP.md](ROADMAP.md). The roadmap is a planning baseline, not a claim that these capabilities already exist.
+The detailed, release-oriented plan with exit criteria and cross-cutting gates is maintained in [ROADMAP.md](ROADMAP.md). The roadmap is a planning baseline, not a claim that these capabilities already exist. [SASD Development Standard adoption and gap assessment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) tracks the required project classification, applicable profiles and evidence.
 
 ## Research foundation
 
@@ -246,6 +247,7 @@ The implementation structure will be established during Phase 0. The documentati
 - [Security policy](SECURITY.md)
 - [Changelog](CHANGELOG.md)
 - [Agent operating contract](AGENTS.md)
+- [SASD Development Standard alignment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md)
 
 ## Documentation
 
