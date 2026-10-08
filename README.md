@@ -56,7 +56,7 @@ The implementation plan is described in:
 
 - [Architecture and planned workbench](docs/en/architecture/ARCHITECTURE.md)
 - [Roadmap and implementation milestones](ROADMAP.md)
-- [Codex/agent operating contract](AGENTS.md
+- [Codex/agent operating contract](AGENTS.md)
 
 ## V1 – planned Secure Binary Analysis Foundation
 
