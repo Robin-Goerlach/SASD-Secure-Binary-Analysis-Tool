@@ -46,6 +46,18 @@ V1 is explicitly **not** a complete Ghidra/IDA replacement, malware laboratory, 
 
 Writing, patching, device access and recovery are not casual extensions of normal analysis. They belong to later, explicitly approved risk classes.
 
+## Virtual Impression
+
+The visual target is documented by the repository screenshots:
+
+- [Dashboard concept](docs/screenshots/dashboard-concept.png)
+- [Condition wizard concept](docs/screenshots/condition-wizard-concept.png)
+
+The implementation plan is described in:
+
+- [UI target and screenshot plan](docs/ui-ux/055_UI_Zielbild_und_Screenshot_Plan.md)
+- [Codex implementation guide](docs/development/145_Codex_Arbeitsauftrag.md)
+
 ## V1 – planned Secure Binary Analysis Foundation
 
 | Area | Planned capability |
