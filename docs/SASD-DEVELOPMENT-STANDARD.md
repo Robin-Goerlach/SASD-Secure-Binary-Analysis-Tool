@@ -36,7 +36,7 @@ These are *project-specific proposals*, not classifications already approved und
 
 | SASD adoption area | Present evidence | Remaining gap | Priority |
 |---|---|---|---|
-| Project brief and purpose | README, product strategy, Lastenheft | Create concise project brief with lifecycle, assumptions, owner, success criteria | Phase 0 |
+| Project brief and purpose | README, product strategy, Lastenheft, [project brief](PROJECT-BRIEF.md) | Review and approve existing brief; confirm owner, assumptions and success criteria | Phase 0 |
 | Classification | This provisional table | Verify upstream criteria, formally approve size/quality/profiles/risks | Phase 0 blocker |
 | Requirements and acceptance | DE/EN requirements and specification | Traceability and review of requirement IDs and acceptance evidence | Phase 0/V1 |
 | Architecture and decisions | DE/EN architecture, ADR index/template | Accept ADR-001–010; record tradeoffs and review | Phase 0 blocker |
@@ -49,6 +49,20 @@ These are *project-specific proposals*, not classifications already approved und
 | Standard tooling | Not adopted | Evaluate optional validators/checklists after toolchain decisions; equivalent evidence allowed | Optional |
 
 **Current conclusion:** documentation alignment is **partial**, and formal SASD Development Standard conformity has **not** been demonstrated. No implementation/build/CI evidence is available yet.
+
+## Additional process controls reconciled from parallel documentation branch
+
+The parallel standard-alignment review identified further items that are retained here rather than replacing the already merged project brief and assessment:
+
+- **Version and scope:** record the reviewed upstream Standard commit, the applicable approved German normative sections, and their individual statuses; a specification candidate is not a stable 1.0 release.
+- **Quality classification:** review size, quality level, risks and applicable Core/Desktop/technology profiles independently. Record accountable approval, a next review date and a temporally separated self-review when maintained solo.
+- **AI-assisted development:** map AGENTS.md permissions, human review, verification and evidence to applicable normative AI-related controls rather than assuming AGENTS.md alone proves compliance.
+- **Readiness gate:** capture a dated Phase-0 readiness decision with unresolved blockers, accepted residual risks, responsible owner and next verifiable milestone.
+- **Release readiness:** document release/rollback, maintenance, support and data-storage/backup expectations proportionately before distribution.
+- **Traceability:** map each applicable normative requirement to evidence, an outstanding task, a justified non-applicability decision or an approved exception. Keep exceptions distinct from recommendations not followed.
+- **Security:** explicitly assess untrusted parser input, local privacy and any later physical-device, plugin or Vault boundaries; unknown risk is not automatically low risk.
+
+Upstream supporting references include [Quality Levels](https://github.com/Robin-Goerlach/SASD-Development-Standard/blob/main/docs/10-core-standard/QUALITY-LEVELS.md) and [Exceptions](https://github.com/Robin-Goerlach/SASD-Development-Standard/blob/main/docs/40-governance/EXCEPTIONS.md). Supporting templates, including project classification and project brief templates, may help collect evidence but do not replace approval.
 
 ## Minimal adoption sequence
 
