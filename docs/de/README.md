@@ -207,8 +207,8 @@ Betrachtet wurden klassische und moderne Hex-Editoren, Format-/Parser-Werkzeuge,
 - [Produktstrategie](strategy/PRODUKTSTRATEGIE.md);
 - [Feature-Analyse](research/FEATURE-ANALYSE.md);
 - [Open-Source-Hex-Editor-Katalog](research/OPEN-SOURCE-HEX-EDITOR-KATALOG.md);
-- [ADR-Übersicht](../../adr/README.md);
-- [Dokumentationshistorie](../../history/README.md).
+- [ADR-Übersicht](../adr/README.md);
+- [Dokumentationshistorie](../history/README.md).
 
 ## Build und Entwicklung
 
