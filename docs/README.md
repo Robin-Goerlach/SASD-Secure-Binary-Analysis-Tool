@@ -56,3 +56,7 @@ Research documents are evidence and decision support. The requirements/specifica
 - [Security policy](../SECURITY.md)
 - [Changelog](../CHANGELOG.md)
 - [Agent operating contract](../AGENTS.md)
+
+## SASD Development Standard
+
+- [Adoption and gap assessment](standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) — provisional classification, profile applicability, normative-source references and Phase-0 evidence gaps.
