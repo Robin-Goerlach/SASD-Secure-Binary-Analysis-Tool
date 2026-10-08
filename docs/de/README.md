@@ -2,9 +2,12 @@
 
 Diese Dokumentation fasst die im Produktplanungs-Chat entstandenen Unterlagen für **SASD Secure Binary Analysis Tool / SASD Binary Insight** in einer repository-tauglichen Struktur zusammen.
 
-## Verbindliche Entwicklungsgrundlage
+## Anforderungen und verbindliche Entwicklungsgrundlage
 
-- [Konsolidiertes Pflichtenheft](requirements/PFLICHTENHEFT.md) – aktueller normativer Stand vom 08.10.2026.
+- [Lastenheft](requirements/LASTENHEFT.md) – fachliche Anforderungen aus Auftraggeber-/Nutzersicht: **was** das Produkt leisten soll und **warum**.
+- [Konsolidiertes Pflichtenheft](requirements/PFLICHTENHEFT.md) – technische Umsetzung und aktuelle normative Entwicklungsbaseline vom 08.10.2026.
+
+Lasten- und Pflichtenheft sollen gemeinsam gepflegt werden. Die Kennungen des Lastenhefts dienen der späteren Rückverfolgbarkeit zu Umsetzung, Tests und Abnahme.
 
 ## Strategie
 
@@ -17,4 +20,4 @@ Diese Dokumentation fasst die im Produktplanungs-Chat entstandenen Unterlagen f�
 
 ## Dokumentstatus
 
-Das ursprüngliche Pflichtenheft, die strategischen Fragen/Antworten und die erste Feature-Analyse waren wichtige Arbeitsstände. Ihre weiterhin gültigen Entscheidungen sind in die konsolidierte Baseline eingeflossen. Bei Widersprüchen gilt das aktuelle Pflichtenheft.
+Das Lastenheft beschreibt die fachlichen Erwartungen. Das Pflichtenheft beschreibt die daraus abgeleitete Lösung. Frühere Arbeitsstände und Research bleiben Entscheidungshistorie; dauerhafte Architekturentscheidungen werden zusätzlich als ADR dokumentiert.
