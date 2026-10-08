@@ -41,3 +41,7 @@ Phase 0 is complete only when the Architecture Definition of Done is met, includ
 ## Status maintenance
 
 Update this file when the project changes lifecycle phase or a major gate is crossed. Do not use it as a second roadmap or requirements document; link to evidence instead.
+
+## SASD Development Standard alignment
+
+Adoption is **partial and not conformity-verified**. A [project brief](docs/PROJECT-BRIEF.md) and [adoption/gap assessment](docs/SASD-DEVELOPMENT-STANDARD.md) exist; formal classification, accepted foundational ADRs, reproducible build/test/CI and exact-commit verification remain pending.
