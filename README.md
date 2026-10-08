@@ -216,6 +216,15 @@ The implementation structure will be established during Phase 0. The documentati
         └── research/
 ~~~
 
+## Project governance and status
+
+- [Project status](PROJECT-STATUS.md)
+- [Roadmap](ROADMAP.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+- [Agent operating contract](AGENTS.md)
+
 ## Documentation
 
 ### Requirements
