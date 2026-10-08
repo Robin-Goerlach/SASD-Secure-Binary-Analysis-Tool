@@ -215,6 +215,8 @@ The implementation structure will be established during Phase 0. The documentati
 ├── CHANGELOG.md                  notable implemented/baseline changes
 └── docs/
     ├── README.md
+    ├── PROJECT-BRIEF.md
+    ├── SASD-DEVELOPMENT-STANDARD.md
     ├── adr/
     │   └── TEMPLATE.md
     ├── history/
@@ -237,6 +239,13 @@ The implementation structure will be established during Phase 0. The documentati
         ├── strategy/
         └── research/
 ~~~
+
+## SASD Development Standard alignment
+
+This project adopts the [SASD Development Standard](https://github.com/Robin-Goerlach/SASD-Development-Standard) **proportionately**. Its German approved normative baseline takes precedence for interpreting SASD requirements; English remains this repository's default presentation language. Adoption is currently **partial and not yet conformity-verified**: project classification, ADR decisions and executable build/test/CI evidence remain open.
+
+- [SASD adoption and gap assessment](docs/SASD-DEVELOPMENT-STANDARD.md)
+- [Concise project brief](docs/PROJECT-BRIEF.md)
 
 ## Project governance and status
 
