@@ -2,9 +2,12 @@
 
 This documentation consolidates the planning material created for **SASD Secure Binary Analysis Tool / SASD Binary Insight** into a repository-oriented structure.
 
-## Normative development baseline
+## Requirements and normative development baseline
 
-- [Consolidated specification](requirements/SPECIFICATION.md) – current normative baseline dated 2026-10-08.
+- [Product requirements](requirements/REQUIREMENTS.md) – customer/user perspective: **what** the product shall achieve and **why**.
+- [Consolidated implementation specification](requirements/SPECIFICATION.md) – technical solution and current normative development baseline dated 2026-10-08.
+
+Requirements and implementation specification should be maintained together. Requirement identifiers provide future traceability into implementation, tests and acceptance.
 
 ## Strategy
 
@@ -17,4 +20,4 @@ This documentation consolidates the planning material created for **SASD Secure 
 
 ## Document status
 
-The original specification, strategic Q&A and initial feature analysis remain important decision history. Decisions that are still applicable have been incorporated into the consolidated baseline. If documents conflict, the current specification takes precedence.
+The requirements document states customer/user expectations. The implementation specification defines the derived solution. Earlier working material and research remain decision history; durable architecture decisions are additionally captured as ADRs.
