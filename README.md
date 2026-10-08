@@ -168,7 +168,7 @@ Language, GUI technology and concrete dependencies remain initial ADR decisions.
 | V4.0 | Controlled Editing |
 | V5+ | optional Recovery/Repair |
 
-The roadmap is a planning baseline, not a claim that these capabilities already exist.
+The detailed, release-oriented plan with exit criteria and cross-cutting gates is maintained in [ROADMAP.md](ROADMAP.md). The roadmap is a planning baseline, not a claim that these capabilities already exist.
 
 ## Research foundation
 
@@ -196,12 +196,21 @@ The implementation structure will be established during Phase 0. The documentati
 .
 ├── README.md                     English default
 ├── LICENSE
+├── ROADMAP.md                    release-oriented implementation plan
+├── PROJECT-STATUS.md             current lifecycle and next gate
+├── AGENTS.md                     coding-agent operating contract
+├── CONTRIBUTING.md               contribution workflow
+├── SECURITY.md                   security policy and threat baseline
+├── CHANGELOG.md                  notable implemented/baseline changes
 └── docs/
     ├── README.md
     ├── adr/
+    │   └── TEMPLATE.md
     ├── history/
     ├── de/
     │   ├── README.md
+    │   ├── architecture/
+    │   │   └── ARCHITEKTUR.md
     │   ├── requirements/
     │   │   ├── LASTENHEFT.md
     │   │   └── PFLICHTENHEFT.md
@@ -209,6 +218,8 @@ The implementation structure will be established during Phase 0. The documentati
     │   └── research/
     └── en/
         ├── README.md
+        ├── architecture/
+        │   └── ARCHITECTURE.md
         ├── requirements/
         │   ├── REQUIREMENTS.md
         │   └── SPECIFICATION.md
@@ -268,7 +279,7 @@ Evaluation candidates include suitable hex controls, Kaitai Struct, Capstone/Zyd
 
 ## Project status
 
-The current status is **Planning / Pre-Implementation**. The product and requirements baseline exists; initial architecture decisions must be completed before implementation begins.
+The current status is **Planning / Pre-Implementation**. The product, requirements, architecture and repository-governance baselines exist. The next gate is Phase 0: ADR-001 through ADR-010, followed by the reproducible build/test/CI foundation and the first read-only ByteProvider vertical slice. See [PROJECT-STATUS.md](PROJECT-STATUS.md) for the concise current state.
 
 In other words, this README describes the **planned product**. V1/V2/... sections are target scope, not implementation claims.
 
