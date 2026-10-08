@@ -24,6 +24,10 @@ Preserve:
 
 Do not turn the project into a generic hex editor, Ghidra/IDA clone, malware-development tool, password cracker, universal decryptor, cloud-only service or premature recovery suite.
 
+## SASD Development Standard adoption
+
+Apply the [SASD adoption assessment](docs/SASD-DEVELOPMENT-STANDARD.md) and [project brief](docs/PROJECT-BRIEF.md). The upstream German Approved normative baseline governs interpretation of applicable SASD requirements; English here is the default presentation language only. Determine project quality level and applicable profiles through formal classification before claiming compliance. Supporting upstream templates/tooling do not create independent requirements. Preserve proportionality and record actual verification evidence; do not claim SASD conformity from document presence alone.
+
 ## 2. Source-of-truth hierarchy
 
 Before changing anything, inspect the actual target branch. Use this precedence:

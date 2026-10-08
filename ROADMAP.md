@@ -18,9 +18,8 @@ This roadmap turns the requirements and architecture into release-oriented imple
 ## Phase 0 — Engineering Foundation
 
 **Target:** roughly 10–15 focused commits.
-
 - [ ] Complete SASD Development Standard project brief, classification (size, quality level, risks, applicable profiles), and record baseline/owner/review evidence.
-- [ ] Map applicable SASD normative requirements to evidence, gaps, N/A and approved exceptions; document a Phase-0 readiness gate.
+- [ ] Map applicable SASD normative requirements to evidence, gaps, N/A and approved exceptions; document a Phase-0 readiness gate
 - [ ] ADR-001 core language/platform.
 - [ ] ADR-002 GUI technology and SASD UI relationship.
 - [ ] ADR-003 ByteProvider/large-file/cache model.
