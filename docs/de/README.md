@@ -240,3 +240,7 @@ Dieses README beschreibt daher das **geplante Produkt**. V1/V2/... sind Zielumf�
 
 **SASD Binary Insight**  
 *A secure, evidence-aware binary analysis workbench that turns byte-level findings into reproducible engineering knowledge.*
+
+## SASD Development Standard
+
+- [Übernahme und Lückenanalyse des SASD Development Standard](../standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) — vorläufige Projektklassifikation, Qualitätsstufe, Profile und erforderliche Nachweise.
