@@ -31,6 +31,11 @@ The 2026-10-08 requirements/specification pair forms the current product baselin
 - [Open-Source-Hex-Editor- und Binäranalyse-Katalog](de/research/OPEN-SOURCE-HEX-EDITOR-KATALOG.md)
 - [Dokumentationsübersicht](de/README.md)
 
+## Architecture
+
+- [English architecture](en/architecture/ARCHITECTURE.md)
+- [Detailed German architecture](de/architecture/ARCHITEKTUR.md)
+
 ## Architecture Decision Records
 
 - [ADR index](adr/README.md)
