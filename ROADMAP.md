@@ -18,9 +18,8 @@ This roadmap turns the requirements and architecture into release-oriented imple
 ## Phase 0 — Engineering Foundation
 
 **Target:** roughly 10–15 focused commits.
-
-- [ ] Approve SASD Development Standard project classification (size, quality level, applicable profiles and risks).
-- [ ] Review/pin the exact upstream SASD normative baseline and document applicable evidence/exception handling.
+- [ ] Complete SASD Development Standard project brief, classification (size, quality level, risks, applicable profiles), and record baseline/owner/review evidence.
+- [ ] Map applicable SASD normative requirements to evidence, gaps, N/A and approved exceptions; document a Phase-0 readiness gate
 - [ ] ADR-001 core language/platform.
 - [ ] ADR-002 GUI technology and SASD UI relationship.
 - [ ] ADR-003 ByteProvider/large-file/cache model.
@@ -38,7 +37,7 @@ This roadmap turns the requirements and architecture into release-oriented imple
 - [ ] Implement the smallest read-only ByteProvider → ByteRange → test vertical slice.
 - [ ] Demonstrate cancellation/progress on a representative long operation.
 
-**Exit:** the Architecture Definition of Done is satisfied; Domain/Core has no UI dependency.
+**Exit:** the Architecture Definition of Done is satisfied; Domain/Core has no UI dependency. The [SASD Development Standard alignment assessment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) is reviewed, classification approved and readiness blockers distinguished from accepted residual risk.
 
 ## V0.1 — Core File Access
 

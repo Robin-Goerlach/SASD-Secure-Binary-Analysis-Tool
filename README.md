@@ -54,8 +54,9 @@ The visual target is documented by the repository screenshots:
 
 The implementation plan is described in:
 
-- [Planned workbench concept](#planned-workbench) — UI target and existing concept screenshot; a separate UX specification has not yet been created.
-- [Codex / agent operating contract](AGENTS.md) — implementation workflow and architectural guardrails; milestone-specific implementation briefs will be created when work starts.
+- [Architecture and planned workbench](docs/en/architecture/ARCHITECTURE.md)
+- [Roadmap and implementation milestones](ROADMAP.md)
+- [Codex/agent operating contract](AGENTS.md
 
 ## V1 – planned Secure Binary Analysis Foundation
 
@@ -179,7 +180,7 @@ Language, GUI technology and concrete dependencies remain initial ADR decisions.
 | V4.0 | Controlled Editing |
 | V5+ | optional Recovery/Repair |
 
-The detailed, release-oriented plan with exit criteria and cross-cutting gates is maintained in [ROADMAP.md](ROADMAP.md). The roadmap is a planning baseline, not a claim that these capabilities already exist.
+The detailed, release-oriented plan with exit criteria and cross-cutting gates is maintained in [ROADMAP.md](ROADMAP.md). The roadmap is a planning baseline, not a claim that these capabilities already exist. [SASD Development Standard adoption and gap assessment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) tracks the required project classification, applicable profiles and evidence.
 
 ## Research foundation
 
@@ -255,6 +256,7 @@ This project adopts the [SASD Development Standard](https://github.com/Robin-Goe
 - [Security policy](SECURITY.md)
 - [Changelog](CHANGELOG.md)
 - [Agent operating contract](AGENTS.md)
+- [SASD Development Standard alignment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md)
 
 ## Documentation
 

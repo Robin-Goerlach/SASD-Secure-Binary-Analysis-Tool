@@ -8,6 +8,10 @@
 
 The product vision, bilingual requirements baseline, implementation specification, product strategy, research catalogue and architecture baseline exist. No production implementation is claimed.
 
+## SASD Development Standard
+
+The project is being aligned with the [SASD Development Standard](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md). Classification, applicable profiles, evidence mapping and Phase-0 readiness review remain **open**; no formal compliance claim is made.
+
 ## Current priority
 
 1. Decide ADR-001 through ADR-010.

@@ -41,6 +41,8 @@ Before changing anything, inspect the actual target branch. Use this precedence:
 7. `ROADMAP.md` and README status;
 8. research/history.
 
+Consult the [SASD Development Standard alignment assessment](docs/standards/SASD-DEVELOPMENT-STANDARD-ALIGNMENT.md) before Phase-0 readiness, architectural or process changes. The Standard's authoritative German normative requirements, approved baseline, quality levels and applicable profiles govern SASD alignment; this repository's agent rules do not replace them. Never claim formal compliance without requirement-level evidence and approved project classification.
+
 Start discovery at `README.md`, `ROADMAP.md`, `CONTRIBUTING.md`, `SECURITY.md`, `docs/README.md`, architecture, requirements and `docs/adr/`.
 
 Research informs decisions but is not normative implementation specification.

@@ -58,7 +58,6 @@ Research documents are evidence and decision support. The requirements/specifica
 - [Agent operating contract](../AGENTS.md)
 
 ## SASD Development Standard
-
 - [Adoption and gap assessment](SASD-DEVELOPMENT-STANDARD.md)
 - [Project brief](PROJECT-BRIEF.md)
 - [Upstream SASD Development Standard](https://github.com/Robin-Goerlach/SASD-Development-Standard)
