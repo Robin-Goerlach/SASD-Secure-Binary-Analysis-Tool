@@ -13,7 +13,8 @@ Documentation is maintained in **English and German**.
 ### English
 
 - [Documentation index](docs/en/README.md)
-- [Consolidated specification](docs/en/requirements/SPECIFICATION.md)
+- [Product requirements](docs/en/requirements/REQUIREMENTS.md)
+- [Consolidated implementation specification](docs/en/requirements/SPECIFICATION.md)
 - [Product strategy](docs/en/strategy/PRODUCT-STRATEGY.md)
 - [Feature analysis](docs/en/research/FEATURE-ANALYSIS.md)
 - [Open-source hex editor catalogue](docs/en/research/OPEN-SOURCE-HEX-EDITOR-CATALOG.md)
@@ -21,6 +22,7 @@ Documentation is maintained in **English and German**.
 ### Deutsch
 
 - [Dokumentationsübersicht](docs/de/README.md)
+- [Lastenheft](docs/de/requirements/LASTENHEFT.md)
 - [Konsolidiertes Pflichtenheft](docs/de/requirements/PFLICHTENHEFT.md)
 - [Produktstrategie](docs/de/strategy/PRODUKTSTRATEGIE.md)
 - [Feature-Analyse](docs/de/research/FEATURE-ANALYSE.md)
