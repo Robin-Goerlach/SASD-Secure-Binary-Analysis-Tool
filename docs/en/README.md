@@ -21,3 +21,11 @@ Requirements and implementation specification should be maintained together. Req
 ## Document status
 
 The requirements document states customer/user expectations. The implementation specification defines the derived solution. Earlier working material and research remain decision history; durable architecture decisions are additionally captured as ADRs.
+
+## SASD Development Standard
+
+The repository applies the [SASD Development Standard](https://github.com/Robin-Goerlach/SASD-Development-Standard) proportionately. Its German Approved normative content governs interpretation; this English documentation is a presentation/translation layer, not a replacement. Conformity has **not** yet been verified.
+
+- [Adoption and gap assessment](../SASD-DEVELOPMENT-STANDARD.md)
+- [Project brief](../PROJECT-BRIEF.md)
+- [Roadmap](../../ROADMAP.md)

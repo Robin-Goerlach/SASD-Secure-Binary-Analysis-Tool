@@ -19,6 +19,8 @@ This roadmap turns the requirements and architecture into release-oriented imple
 
 **Target:** roughly 10–15 focused commits.
 
+- [ ] Approve SASD Development Standard project classification (size, quality level, applicable profiles and risks).
+- [ ] Review/pin the exact upstream SASD normative baseline and document applicable evidence/exception handling.
 - [ ] ADR-001 core language/platform.
 - [ ] ADR-002 GUI technology and SASD UI relationship.
 - [ ] ADR-003 ByteProvider/large-file/cache model.

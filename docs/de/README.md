@@ -207,8 +207,8 @@ Betrachtet wurden klassische und moderne Hex-Editoren, Format-/Parser-Werkzeuge,
 - [Produktstrategie](strategy/PRODUKTSTRATEGIE.md);
 - [Feature-Analyse](research/FEATURE-ANALYSE.md);
 - [Open-Source-Hex-Editor-Katalog](research/OPEN-SOURCE-HEX-EDITOR-KATALOG.md);
-- [ADR-Übersicht](../../adr/README.md);
-- [Dokumentationshistorie](../../history/README.md).
+- [ADR-Übersicht](../adr/README.md);
+- [Dokumentationshistorie](../history/README.md).
 
 ## Build und Entwicklung
 
@@ -240,3 +240,12 @@ Dieses README beschreibt daher das **geplante Produkt**. V1/V2/... sind Zielumf�
 
 **SASD Binary Insight**  
 *A secure, evidence-aware binary analysis workbench that turns byte-level findings into reproducible engineering knowledge.*
+
+## SASD Development Standard
+
+Dieses Projekt orientiert sich am [SASD Development Standard](https://github.com/Robin-Goerlach/SASD-Development-Standard). Dessen **deutsche, genehmigte normative Fassung** ist für die Auslegung der Standardanforderungen maßgeblich; Englisch bleibt lediglich die Standardsprache der Repository-Präsentation. Die Übernahme ist derzeit **teilweise**, keine bestätigte Konformität.
+
+- [Anwendungs- und Lückenanalyse](../SASD-DEVELOPMENT-STANDARD.md)
+- [Kompakter Projektbrief](../PROJECT-BRIEF.md)
+- [Roadmap](../../ROADMAP.md)
+- [Codex-/Agentenregeln](../../AGENTS.md)
