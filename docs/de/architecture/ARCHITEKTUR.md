@@ -27,6 +27,10 @@ Die wichtigsten Architekturtreiber sind:
 
 ## 2. Architekturprinzipien
 
+### 2.0 Implementierungsbaseline
+
+Die erste Phase-0-Implementierung verwendet einen C++20-Core mit CMake. Sprachspezifische Module bleiben getrennt; zukünftige Python-, Rust-, C#- oder andere Komponenten integrieren sich über eine explizite ABI, ein Prozessprotokoll oder ein geprüftes Binding. Der Domain/Core wird dadurch nicht von einer UI oder einer anderen Sprachlaufzeit abhängig.
+
 ### 2.1 Dependency Rule
 
 Abhängigkeiten zeigen grundsätzlich nach innen. UI und Infrastruktur dürfen Application und Domain verwenden; Domain kennt weder GUI-Toolkit noch Dateisystem-API, Datenbank, Netzwerk oder konkrete Drittbibliotheken.

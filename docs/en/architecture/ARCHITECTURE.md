@@ -135,9 +135,21 @@ Later modules must not make the V1 core depend on their technology stacks.
 
 The design requires unit tests for ranges/decoding/evidence/validation, boundary/property tests for page/chunk and malformed input, integration tests for provider/scanner/project/report flows, deterministic golden fixtures, 1 GB/10 GB performance tests and security regressions.
 
+## Implementation baseline
+
+The initial Phase-0 implementation uses a C++20 core built with CMake. The
+repository keeps language-specific modules separate; future languages integrate
+through an explicit ABI, process protocol or reviewed binding. This does not
+make the Domain/Core dependent on a UI or another language runtime.
+
 ## ADR boundary
 
-The architecture does not prematurely decide language, GUI toolkit, storage syntax or third-party engines. ADR-001 through ADR-010 cover core platform, GUI, ByteProvider, project format, format definitions, pattern packs, evidence, hashes/checksums, reporting and dependency/licence policy. Later ADRs cover disassembly, Vault/secure buffers and disk/device access.
+ADR-001 establishes the initial C++20/CMake core platform. The architecture
+does not yet decide GUI toolkit, storage syntax or third-party engines.
+ADR-002 through ADR-010 cover GUI, ByteProvider, project format, format
+definitions, pattern packs, evidence, hashes/checksums, reporting and
+dependency/licence policy. Later ADRs cover disassembly, Vault/secure buffers
+and disk/device access.
 
 ## Architecture invariants
 

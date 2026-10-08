@@ -1,7 +1,7 @@
 # SASD Secure Binary Analysis Tool
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Status](https://img.shields.io/badge/status-planning%20%2F%20pre--implementation-orange)
+![Status](https://img.shields.io/badge/status-Phase%200%20foundation-orange)
 ![Security](https://img.shields.io/badge/security-read--only%20first-blue)
 ![Documentation](https://img.shields.io/badge/docs-EN%20%7C%20DE-informational)
 
@@ -10,6 +10,9 @@
 > **Project status:** planning / pre-implementation. This README describes the approved product and requirements direction, not already implemented functionality.
 
 **English (default)** · [Deutsch](docs/de/README.md)
+
+The repository now contains the first C++20/CMake Phase-0 build and test
+foundation. Product capabilities remain under active implementation.
 
 ---
 
@@ -191,6 +194,25 @@ The product specification was informed by a review of classic and modern hex edi
 
 Research informs functionality. Reusing source code remains a separate licensing and architecture decision.
 
+## Build foundation
+
+The initial module is `src/cpp/core` with tests in `tests/cpp`. CMake
+orchestrates the C++ targets; future Python, Rust, C#, or other-language
+modules may be added beside it and integrate through an explicit ABI, process
+protocol, or reviewed binding. They remain optional dependencies.
+
+Requirements: CMake 3.25+ and a C++20 compiler. The preset uses the host's
+default CMake generator.
+
+```text
+cmake --preset default
+cmake --build --preset default
+ctest --preset default
+```
+
+See [ADR-001](docs/adr/ADR-001-core-language-and-platform.md) for the
+language and cross-language boundary decision.
+
 ## SASD integration
 
 Binary Insight remains a standalone product while reusing SASD experience where appropriate:
@@ -301,7 +323,11 @@ Evaluation candidates include suitable hex controls, Kaitai Struct, Capstone/Zyd
 
 ## Project status
 
-The current status is **Planning / Pre-Implementation**. The product, requirements, architecture and repository-governance baselines exist. The next gate is Phase 0: ADR-001 through ADR-010, followed by the reproducible build/test/CI foundation and the first read-only ByteProvider vertical slice. See [PROJECT-STATUS.md](PROJECT-STATUS.md) for the concise current state.
+The current status is **Phase 0 foundation**. The product, requirements,
+architecture and repository-governance baselines exist, and the initial C++20/
+CMake build/test/CI foundation is in place. The next gate is the remaining
+foundational ADRs and the first read-only ByteProvider vertical slice. See
+[PROJECT-STATUS.md](PROJECT-STATUS.md) for the concise current state.
 
 In other words, this README describes the **planned product**. V1/V2/... sections are target scope, not implementation claims.
 

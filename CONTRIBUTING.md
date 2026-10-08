@@ -47,7 +47,16 @@ English is the repository default. German companion documentation is maintained 
 
 ## Build instructions
 
-There are intentionally no build commands yet. Phase 0 and ADR-001/002 will establish the toolchain; do not invent commands before then.
+The initial C++20/CMake foundation is available locally:
+
+```text
+cmake --preset default
+cmake --build --preset default
+ctest --preset default
+```
+
+Use `cmake --preset release` for a release configuration. Other languages may
+be added as independent modules; document their toolchain next to the module.
 
 ## Conduct
 
