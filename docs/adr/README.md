@@ -18,6 +18,10 @@ This directory records durable architectural decisions for SASD Binary Insight.
 12. Secure buffer / Vault boundary before V2.5
 13. Disk/device provider before V3
 
+## Accepted decisions
+
+- [ADR-001: Core language and platform](ADR-001-core-language-and-platform.md)
+
 ADRs should contain both English and German sections in the same file. This mirrors the approach used by other SASD repositories and prevents architectural rationale from drifting between translations.
 
 No item in this list is considered decided merely because it is listed here.

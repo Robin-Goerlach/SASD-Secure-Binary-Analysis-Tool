@@ -2,7 +2,7 @@
 
 **Updated:** 2026-10-08  
 **Lifecycle:** Planning / Pre-Implementation  
-**Current phase:** Phase 0 preparation
+**Current phase:** Phase 0 implementation foundation
 
 ## Current state
 
@@ -14,8 +14,8 @@ The project is being aligned with the [SASD Development Standard](docs/standards
 
 ## Current priority
 
-1. Decide ADR-001 through ADR-010.
-2. Establish the implementation/build/test/CI baseline from those decisions.
+1. Decide ADR-002 through ADR-010.
+2. Extend the implementation/build/test/CI baseline from ADR-001.
 3. Establish fixtures, performance harness and security/logging baseline.
 4. Implement the smallest read-only ByteProvider vertical slice.
 5. Start V0.1 only after the Phase-0 architecture gate is satisfied.
@@ -33,10 +33,11 @@ The project is being aligned with the [SASD Development Standard](docs/standards
 - [x] AGENTS operating contract.
 - [x] CONTRIBUTING and SECURITY policies.
 - [x] CHANGELOG baseline.
+- [x] ADR-001 and the initial C++20/CMake build/test/CI foundation.
 
 ## Not yet implemented
 
-There is currently no supported application build, ByteProvider implementation, HexView, Pattern Engine, project persistence, report generator, CLI or released package. README/roadmap descriptions of these capabilities are targets.
+There is currently no ByteProvider implementation, HexView, Pattern Engine, project persistence, report generator, CLI or released package. README/roadmap descriptions of these capabilities are targets. The supported build currently verifies only the minimal C++ core contract.
 
 ## Phase-0 gate
 
