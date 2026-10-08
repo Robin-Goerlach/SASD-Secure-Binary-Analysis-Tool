@@ -223,6 +223,11 @@ The implementation structure will be established during Phase 0. The documentati
 - [Product Requirements](docs/en/requirements/REQUIREMENTS.md) – **what** is needed and **why**;
 - [Implementation Specification](docs/en/requirements/SPECIFICATION.md) – **how** the requirements are intended to be fulfilled.
 
+### Architecture
+
+- [Architecture](docs/en/architecture/ARCHITECTURE.md) – system boundaries, layers, core abstractions, security and evolution;
+- [Detailed German architecture](docs/de/architecture/ARCHITEKTUR.md).
+
 ### Strategy and research
 
 - [Product strategy](docs/en/strategy/PRODUCT-STRATEGY.md)
